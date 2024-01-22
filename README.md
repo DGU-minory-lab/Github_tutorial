@@ -20,3 +20,10 @@
 - Master(혹은 main)에서 뻗어나온 가지, 분기점을 branch라고 일컫음  
 - 각자의 branch에서 개발 후 test를 거쳐 merge를 진행함  
 
+## Git 기본 용어
+- **Repository (레포지토리, 저장소)** : 모든 소스코드의 저장소
+- **Working Tree** : 작업자의 현재 시점 (version 몇을 보고있는지)
+- **Staging Area** : commit 전 변경사항이 저장되어있는 커밋 준비 장소
+- **Commit** : 저장소에 올리는 작업
+- **Branch** : 분기점. 현 상태를 복사하여 작업 후, master branch에 합침
+- **Merge** : branch를 합치는 것
