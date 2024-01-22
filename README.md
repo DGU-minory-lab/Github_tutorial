@@ -12,3 +12,11 @@
 
 ## 버전관리란?
 ![version](./img/version.png)
+- 하나의 소스코드에 대해 버전을 지속적으로 업데이트하며 쓸 수 있는 기능  
+- git을 이용해 소스코드 버전 관리를 지속적으로 가능케 함  
+
+## 협업과 branch
+![branch](./img/branch.png)
+- Master(혹은 main)에서 뻗어나온 가지, 분기점을 branch라고 일컫음  
+- 각자의 branch에서 개발 후 test를 거쳐 merge를 진행함  
+
