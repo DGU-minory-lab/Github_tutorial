@@ -27,3 +27,11 @@
 - **Commit** : 저장소에 올리는 작업
 - **Branch** : 분기점. 현 상태를 복사하여 작업 후, master branch에 합침
 - **Merge** : branch를 합치는 것
+
+## git 명령어
+- 현재 상태 확인 `git status`  
+- 전체 로그 확인 `git log git`  
+- 저장소 생성하기 `git init`  
+저장소 복제 및 다운로드 `git clone [https: ~~~~ ]` 저장소에 코드 추가
+git addgit add * 커밋에 파일의 변경 사항을 한번에 모두 포함  git add -A 커밋 생성git commit -m "message" 변경 사항 원격 서버 업로드 (push)git push origin master 원격 저장소의 변경 내용을 현재 디렉토리로 가져오기 (pull)git pull 변경 내용을 merge 하기 전에 바뀐 내용 비교git diff [브랜치 이름] [다른 브랜치 이름]        Git Branch 관련 (생성, 브랜치 확인, push 까지의 과정 포함) git init을 설정하면 해당 폴더에 .git 이라는 파일이 생성됨 git init github 주소와 연결 git remote add origin [github 주소] 브랜치 생성git branch [브랜치명] 해당 브랜치로 이동git checkout [브랜치명] 브랜치를 생성하고 해당 브랜치로 바로 이동git branch -b [브랜치명] 원하는 브랜치로 이동했는지 확인 git branch 모든 브랜치 확인 git brach -a 파일 및 폴더 addgit add . 커밋 git commit -m "commit message" 원하는 브랜치로 push하여 원격 서버에 전송 git push origin [브랜치명] 브랜치 삭제 git branch -d [브랜치 이름] 현재 브랜치에 다른 브랜치 수정사항 병합git merge [다른 브랜치 이름]
+출처: https://eehoeskrap.tistory.com/666 [Enough is not enough:티스토리]
